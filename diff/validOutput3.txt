@@ -1,0 +1,20 @@
+void main()
+{
+	int x_int,y_int;
+
+	x_int = 0;
+	y_int = -1;
+	if( x_int > y_int )
+	{
+		y_int = -1 * y_int;
+	}
+	else if( y > x )
+	{
+		x_int = -1 * x_int;
+	}
+	else
+	{
+		x_int = y_int;
+	}
+	y_int = x_int;
+}

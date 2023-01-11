@@ -1,0 +1,36 @@
+void main()
+{
+	int x_int,y_int;
+	float result_flt,z_flt;
+
+	x_int = 5;
+	y_int = 7;
+	z_flt = 3.14;
+	if( x_int < z_flt )
+	{
+		if( y_int < z_flt )
+		{
+			result_flt = z_flt * x_int - y_int;
+			result_flt = result_flt / 2;
+		}
+		else
+		{
+			result_flt = z_flt * x_int + y_int;
+			result_flt = result_flt / 2;
+			if( result_flt > y_int )
+			{
+				result_flt = result_flt / x_int;
+			}
+		}
+		y_int = x_int * 2;
+	}
+	else if ( y < x )
+	{
+		result_flt = z_flt;
+	}
+	else
+	{
+		result_flt = z_flt * x_int * x_int * y_int;
+	}
+	x_int = y_int;
+}

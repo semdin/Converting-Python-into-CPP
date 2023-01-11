@@ -1,0 +1,18 @@
+x=5
+y=7
+z=3.14
+if x<z:
+	if y<z:
+		result=z*x-y
+		result=result/2
+	else:
+		result=z*x+y
+		result=result/2
+		if result>y:
+			result=result/x
+	y=x*2
+elif y<x:
+	result=z
+else:
+	result=z*x*x*y
+x=y
