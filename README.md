@@ -72,7 +72,7 @@ void main()
 		}
 		y_int = x_int * 2;
 	}
-	else if ( y < x )
+	else if( y_int < x_int )
 	{
 		result_flt = z_flt;
 	}
